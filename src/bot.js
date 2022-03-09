@@ -35,7 +35,7 @@ const sendImage = function(tweet){
             break;
         default:
             image = fs.readFileSync('./src/images/hund.jpg', { encoding: 'base64' })
-            print("OMG 100!!!!!!!!!!!!!!!!!!!")
+            console.log("OMG 100!!!!!!!!!!!!!!!!!!!")
             break;
     }
     T.post('favorites/create', { id: tweet.id_str })
