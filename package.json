@@ -1,0 +1,19 @@
+{
+  "name": "shishab-fennode_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "botjs",
+  "scripts": {
+    "start": "node ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulienProjects/shishab-fennode_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulienProjects/shishab-fennode_bot/issues"
+  },
+  "homepage": "https://github.com/JulienProjects/shishab-fennode_bot#readme"
+}
